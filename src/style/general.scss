@@ -1,0 +1,16 @@
+.totalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+p,
+div {
+  margin: 0;
+}

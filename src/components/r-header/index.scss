@@ -1,0 +1,33 @@
+.header {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+
+  &__image {
+    &--image {
+      padding: 10px;
+      width: 120px;
+    }
+  }
+
+  &__details {
+    margin-top: 20px;
+
+    &--header {
+      text-transform: uppercases;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &--job {
+      margin-top: 5px;
+    }
+  }
+}
+
+.active {
+  color: red;
+}
