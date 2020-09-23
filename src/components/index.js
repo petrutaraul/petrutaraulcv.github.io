@@ -10,7 +10,6 @@ export class Components extends React.Component {
       data: {
         name: "",
         job: "",
-        image: "",
       },
     };
   }
