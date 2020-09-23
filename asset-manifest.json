@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/petrutaraulcv.github.io/static/css/main.4e14adbb.chunk.css",
+    "main.js": "/petrutaraulcv.github.io/static/js/main.cd39502a.chunk.js",
+    "main.js.map": "/petrutaraulcv.github.io/static/js/main.cd39502a.chunk.js.map",
+    "runtime-main.js": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js",
+    "runtime-main.js.map": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js.map",
+    "static/js/2.3715f3bc.chunk.js": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js",
+    "static/js/2.3715f3bc.chunk.js.map": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js.map",
+    "index.html": "/petrutaraulcv.github.io/index.html",
+    "precache-manifest.4d7d6c5173613109b54a4ca3614832a0.js": "/petrutaraulcv.github.io/precache-manifest.4d7d6c5173613109b54a4ca3614832a0.js",
+    "service-worker.js": "/petrutaraulcv.github.io/service-worker.js",
+    "static/css/main.4e14adbb.chunk.css.map": "/petrutaraulcv.github.io/static/css/main.4e14adbb.chunk.css.map",
+    "static/js/2.3715f3bc.chunk.js.LICENSE.txt": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3376a3d.js",
+    "static/js/2.3715f3bc.chunk.js",
+    "static/css/main.4e14adbb.chunk.css",
+    "static/js/main.cd39502a.chunk.js"
+  ]
+}
