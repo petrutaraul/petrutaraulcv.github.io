@@ -1,3 +1,6 @@
+@import "./colors.scss";
+@import "./mediaquery.scss";
+
 .totalCenter {
   display: flex;
   justify-content: center;
@@ -9,8 +12,39 @@
   flex-direction: column;
 }
 
-h1,
-p,
-div {
-  margin: 0;
+.primary-btn {
+  border: none;
+  background-color: transparent;
+  color: $text-color;
+  opacity: 0.5;
+  padding: 3px 5px;
+  font-size: 14px;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.secondary-btn {
+  border: 1px solid $text-color;
+  background-color: $text-color;
+  color: black;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 3px 5px;
+  font-weight: 600;
+  transition: all 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: $clicked-btn;
+  }
+
+  @include for-phone-only {
+    transition: none;
+
+    &:hover {
+      background-color: $text-color;
+    }
+  }
 }

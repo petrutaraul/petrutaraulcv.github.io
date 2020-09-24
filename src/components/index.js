@@ -8,8 +8,10 @@ export class Components extends React.Component {
     super();
     this.state = {
       data: {
-        name: "",
-        job: "",
+        header: {
+          name: "",
+          job: "",
+        },
       },
     };
   }
@@ -30,9 +32,9 @@ export class Components extends React.Component {
 
     return (
       <RHeader
-        mypic="pictures/profile-picture.jpg"
-        name={data.name}
-        job={data.job}
+        mypic={require("../pictures/profile-picture.png")}
+        name={data.header.name}
+        job={data.header.job}
       />
     );
   }

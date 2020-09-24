@@ -17,10 +17,13 @@ export class RHeader extends Component {
             className="header__image--image"
           />
         </div>
-        <div className="header__details">
+        <div className="header__details totalCenter">
           <h1 className="header__details--header">{this.props.name}</h1>
           <p className="header__details--job">{this.props.job}</p>
-          <h1 onClick={this.changeNumber}>{this.state.number}</h1>
+          <button className="header__details--contact-btn secondary-btn">
+            CONTACT
+          </button>
+          <div className="header__details--social"></div>
         </div>
       </div>
     );
