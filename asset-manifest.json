@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/petrutaraulcv.github.io/static/css/main.4e14adbb.chunk.css",
-    "main.js": "/petrutaraulcv.github.io/static/js/main.cd39502a.chunk.js",
-    "main.js.map": "/petrutaraulcv.github.io/static/js/main.cd39502a.chunk.js.map",
+    "main.css": "/petrutaraulcv.github.io/static/css/main.19e24cc4.chunk.css",
+    "main.js": "/petrutaraulcv.github.io/static/js/main.c55147cb.chunk.js",
+    "main.js.map": "/petrutaraulcv.github.io/static/js/main.c55147cb.chunk.js.map",
     "runtime-main.js": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js",
     "runtime-main.js.map": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js.map",
-    "static/js/2.3715f3bc.chunk.js": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js",
-    "static/js/2.3715f3bc.chunk.js.map": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js.map",
+    "static/js/2.85cd3003.chunk.js": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js",
+    "static/js/2.85cd3003.chunk.js.map": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js.map",
     "index.html": "/petrutaraulcv.github.io/index.html",
-    "precache-manifest.4d7d6c5173613109b54a4ca3614832a0.js": "/petrutaraulcv.github.io/precache-manifest.4d7d6c5173613109b54a4ca3614832a0.js",
+    "precache-manifest.fe5546c5b75dd25bf50613e1d294fedd.js": "/petrutaraulcv.github.io/precache-manifest.fe5546c5b75dd25bf50613e1d294fedd.js",
     "service-worker.js": "/petrutaraulcv.github.io/service-worker.js",
-    "static/css/main.4e14adbb.chunk.css.map": "/petrutaraulcv.github.io/static/css/main.4e14adbb.chunk.css.map",
-    "static/js/2.3715f3bc.chunk.js.LICENSE.txt": "/petrutaraulcv.github.io/static/js/2.3715f3bc.chunk.js.LICENSE.txt"
+    "static/css/main.19e24cc4.chunk.css.map": "/petrutaraulcv.github.io/static/css/main.19e24cc4.chunk.css.map",
+    "static/js/2.85cd3003.chunk.js.LICENSE.txt": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js.LICENSE.txt",
+    "static/media/profile-picture.png": "/petrutaraulcv.github.io/static/media/profile-picture.b3f862df.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b3376a3d.js",
-    "static/js/2.3715f3bc.chunk.js",
-    "static/css/main.4e14adbb.chunk.css",
-    "static/js/main.cd39502a.chunk.js"
+    "static/js/2.85cd3003.chunk.js",
+    "static/css/main.19e24cc4.chunk.css",
+    "static/js/main.c55147cb.chunk.js"
   ]
 }
