@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 /* Box sizing rules */
 *,
 *::before,
@@ -42,10 +44,19 @@ ul[class],
 ol[class] {
   list-style: none;
 }
+ul,
+ol {
+  list-style: none;
+}
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
 }
 
 /* Make images easier to work with */

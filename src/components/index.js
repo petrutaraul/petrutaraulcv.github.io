@@ -10,7 +10,11 @@ export class Components extends React.Component {
       data: {
         header: {
           name: "",
+          profilePic: "",
           job: "",
+          contact: "",
+          resume: "",
+          social: [],
         },
       },
     };
@@ -32,9 +36,12 @@ export class Components extends React.Component {
 
     return (
       <RHeader
-        mypic={require("../pictures/profile-picture.png")}
+        mypic={data.header.profilePic}
         name={data.header.name}
         job={data.header.job}
+        socials={data.header.social}
+        contact={data.header.contact}
+        resume={data.header.resume}
       />
     );
   }
