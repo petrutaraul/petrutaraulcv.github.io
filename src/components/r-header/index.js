@@ -8,18 +8,24 @@ export class RHeader extends Component {
     this.state = {};
   }
 
+  componentDidUpdate() {
+    window.onscroll = function (e) {
+      if (this.oldScroll < this.scrollY) {
+        document.getElementById("header__scroll-down-arrow").style.display =
+          "none";
+      } else {
+        document.getElementById("header__scroll-down-arrow").style.display =
+          "block";
+      }
+      this.oldScroll = this.scrollY;
+    };
+  }
+
   render() {
     const props = this.props;
 
     return (
       <div className="header totalCenter columnFlex">
-        <div className="header__image">
-          <img
-            src={props.mypic}
-            alt="raul-profile-pic"
-            className="header__image--image"
-          />
-        </div>
         <div className="header__details totalCenter">
           <h1 className="header__details--header">{props.name}</h1>
           <p className="header__details--job">{props.job}</p>
@@ -58,6 +64,7 @@ export class RHeader extends Component {
           src={require("../../pictures/white-down-arrow-png-2.png")}
           alt="scroll down arrow"
           className="header__scroll-down-arrow"
+          id="header__scroll-down-arrow"
         />
       </div>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import { RHeader } from "./components";
+import { RHeader, RAbout } from "./components";
 
 export class Components extends React.Component {
   constructor() {
@@ -10,11 +10,13 @@ export class Components extends React.Component {
       data: {
         header: {
           name: "",
-          profilePic: "",
           job: "",
           contact: "",
           resume: "",
           social: [],
+        },
+        about: {
+          description: "",
         },
       },
     };
@@ -35,14 +37,16 @@ export class Components extends React.Component {
     const data = this.state.data;
 
     return (
-      <RHeader
-        mypic={data.header.profilePic}
-        name={data.header.name}
-        job={data.header.job}
-        socials={data.header.social}
-        contact={data.header.contact}
-        resume={data.header.resume}
-      />
+      <>
+        <RHeader
+          name={data.header.name}
+          job={data.header.job}
+          socials={data.header.social}
+          contact={data.header.contact}
+          resume={data.header.resume}
+        />
+        <RAbout description={data.about.description} />
+      </>
     );
   }
 }

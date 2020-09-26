@@ -10,33 +10,10 @@
   height: 100vh;
   position: relative;
 
-  &__image {
-    position: absolute;
-    top: 22%;
-    right: 0;
-    opacity: 0.3;
-    height: 100%;
-    width: 40vw;
-
-    @include for-phone-only {
-      display: none;
-    }
-
-    &--image {
-      height: 100%;
-      filter: grayscale(1);
-    }
-  }
-
   &__details {
-    margin-right: 20%;
     color: $text-color;
     text-align: center;
     flex-direction: column;
-
-    @include for-phone-only {
-      margin: 0;
-    }
 
     &--header {
       font-size: 50px;
@@ -96,7 +73,18 @@
 
   &__scroll-down-arrow {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 50px;
+    animation: scrollDown 1s infinite;
+
+    @keyframes scrollDown {
+      from {
+        bottom: 10px;
+      }
+
+      to {
+        bottom: 0;
+      }
+    }
   }
 }
