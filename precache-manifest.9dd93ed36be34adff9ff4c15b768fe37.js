@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cbe337e55780305fc4559262a9734e3",
+    "revision": "c9391df08c6942e999d9f135d5a00272",
     "url": "/petrutaraulcv.github.io/index.html"
   },
   {
-    "revision": "33b945ece896f9a84d01",
+    "revision": "aa6525a5c29a7f97df6c",
     "url": "/petrutaraulcv.github.io/static/css/main.27cc9a2c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33b945ece896f9a84d01",
-    "url": "/petrutaraulcv.github.io/static/js/main.e774316e.chunk.js"
+    "revision": "aa6525a5c29a7f97df6c",
+    "url": "/petrutaraulcv.github.io/static/js/main.cdb96336.chunk.js"
   },
   {
     "revision": "1d104988551d4003d8fa",

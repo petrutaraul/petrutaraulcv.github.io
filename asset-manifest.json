@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/petrutaraulcv.github.io/static/css/main.27cc9a2c.chunk.css",
-    "main.js": "/petrutaraulcv.github.io/static/js/main.e774316e.chunk.js",
-    "main.js.map": "/petrutaraulcv.github.io/static/js/main.e774316e.chunk.js.map",
+    "main.js": "/petrutaraulcv.github.io/static/js/main.cdb96336.chunk.js",
+    "main.js.map": "/petrutaraulcv.github.io/static/js/main.cdb96336.chunk.js.map",
     "runtime-main.js": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js",
     "runtime-main.js.map": "/petrutaraulcv.github.io/static/js/runtime-main.b3376a3d.js.map",
     "static/js/2.85cd3003.chunk.js": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js",
     "static/js/2.85cd3003.chunk.js.map": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js.map",
     "index.html": "/petrutaraulcv.github.io/index.html",
-    "precache-manifest.33824a71308d7b25e22e5fea367f1cf1.js": "/petrutaraulcv.github.io/precache-manifest.33824a71308d7b25e22e5fea367f1cf1.js",
+    "precache-manifest.9dd93ed36be34adff9ff4c15b768fe37.js": "/petrutaraulcv.github.io/precache-manifest.9dd93ed36be34adff9ff4c15b768fe37.js",
     "service-worker.js": "/petrutaraulcv.github.io/service-worker.js",
     "static/css/main.27cc9a2c.chunk.css.map": "/petrutaraulcv.github.io/static/css/main.27cc9a2c.chunk.css.map",
     "static/js/2.85cd3003.chunk.js.LICENSE.txt": "/petrutaraulcv.github.io/static/js/2.85cd3003.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b3376a3d.js",
     "static/js/2.85cd3003.chunk.js",
     "static/css/main.27cc9a2c.chunk.css",
-    "static/js/main.e774316e.chunk.js"
+    "static/js/main.cdb96336.chunk.js"
   ]
 }
