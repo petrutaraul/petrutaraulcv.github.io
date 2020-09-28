@@ -12,6 +12,21 @@
   flex-direction: column;
 }
 
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include for-phone-only {
+    width: 90%;
+  }
+}
+
 .primary-btn {
   border: none;
   background-color: transparent;

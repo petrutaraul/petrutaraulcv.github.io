@@ -17,6 +17,7 @@ export class Components extends React.Component {
         },
         about: {
           description: "",
+          image: "",
         },
       },
     };
@@ -45,7 +46,8 @@ export class Components extends React.Component {
           contact={data.header.contact}
           resume={data.header.resume}
         />
-        <RAbout description={data.about.description} />
+
+        <RAbout description={data.about.description} image={data.about.image} />
       </>
     );
   }

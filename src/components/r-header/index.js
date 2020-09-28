@@ -11,14 +11,20 @@ export class RHeader extends Component {
   componentDidUpdate() {
     window.onscroll = function (e) {
       if (this.oldScroll < this.scrollY) {
-        document.getElementById("header__scroll-down-arrow").style.display =
-          "none";
+        document.getElementById("header__swipe").style.display = "none";
       } else {
-        document.getElementById("header__scroll-down-arrow").style.display =
-          "block";
+        document.getElementById("header__swipe").style.display = "block";
       }
       this.oldScroll = this.scrollY;
     };
+
+    var windowWidth = window.innerWidth;
+    if (windowWidth < 1200) {
+      document.getElementById("header__swipe--text").innerHTML =
+        "Swipe up to scroll";
+    } else {
+      document.getElementById("header__swipe--text").innerHTML = "Scroll down";
+    }
   }
 
   render() {
@@ -60,12 +66,10 @@ export class RHeader extends Component {
             </ul>
           </div>
         </div>
-        <img
-          src={require("../../pictures/white-down-arrow-png-2.png")}
-          alt="scroll down arrow"
-          className="header__scroll-down-arrow"
-          id="header__scroll-down-arrow"
-        />
+        <div className="header__swipe" id="header__swipe">
+          <p className="header__swipe--text" id="header__swipe--text" />
+          <div className="header__swipe--bar" />
+        </div>
       </div>
     );
   }

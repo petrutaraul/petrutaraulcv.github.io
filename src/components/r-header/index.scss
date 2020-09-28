@@ -71,20 +71,32 @@
     }
   }
 
-  &__scroll-down-arrow {
+  &__swipe {
     position: absolute;
-    bottom: 10px;
-    width: 50px;
-    animation: scrollDown 1s infinite;
+    bottom: 4px;
+    text-align: center;
+    animation: scrollDown 1.5s infinite;
 
     @keyframes scrollDown {
       from {
-        bottom: 10px;
+        bottom: 4px;
       }
 
       to {
-        bottom: 0;
+        bottom: 10px;
       }
+    }
+
+    &--text {
+      color: $text-color;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    &--bar {
+      background-color: $text-color;
+      padding: 2px 60px;
+      border-radius: 20px;
     }
   }
 }
