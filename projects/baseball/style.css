@@ -1,0 +1,205 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#continutsus {
+  background: url('poze/poza1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.Navbar {
+  display: flex;
+  padding: 60px 390px;
+  color: white;
+}
+.Navbar-Items {
+  display: flex;
+}
+.Navbar-Link {
+  padding-right: 8px;
+}
+.Navbar-Link-brand {
+  font-size: 35px;
+  font-weight: 500;
+}
+.Navbar-Items-right {
+  margin-left: auto;
+  font-size: 17px;
+  padding-top: 13.5px;
+  font-family: 'Exo', sans-serif;
+}
+.Navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+}
+.Navbar a:hover {
+  background-color:rgb(235, 210, 45);
+  border-radius: 10px;
+  color: rgb(160, 127, 28);
+}
+.parteneagrapestepoza {
+  background-color: hsl(0, 0%, 0%, 0.7);
+}
+.parteneagrapestepoza h1,
+.parteneagrapestepoza h3,
+.parteneagrapestepoza .butonsusclasa {
+  text-align: center;
+}
+.parteneagrapestepoza .butonsusclasa {
+  padding: 70px 0;
+}
+.h1Sih2 {
+  color: white;
+  padding-top: 40px;
+}
+.parteneagrapestepoza h1 {
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+.parteneagrapestepoza h3 {
+  font-size: 23px;
+  margin-top: -40px;
+  color: rgb(162, 161, 158);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.butonsusclasa button,
+.boxuri button {
+  border: none;
+  background-color: rgb(235, 210, 45);
+  color: rgb(160, 127, 28);
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  font-family: 'Exo', sans-serif;
+  cursor: pointer;
+}
+.boxuri {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+.boxa {
+  max-width: 100%;
+}
+.boxa p {
+  display: block;
+}
+.continut {
+  background-color:rgb(242, 242, 242);
+}
+.continut p {
+  line-height: 29px;
+  color: rgb(104, 104, 104);
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.h1Sih2continut {
+  color: color: rgb(162, 161, 158);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.continut h1 {
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+.continut h3 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: -35px;
+  color: rgb(162, 161, 158);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.finalpagina {
+  background-color: rgb(239, 191, 46);
+  color: white;
+}
+.pozafinala {
+  text-align: center;
+}
+.pozafinala img {
+  width: 60%;
+  height: 30%;
+}
+.paragrafultim {
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding-bottom: 60px;
+}
+.paragrafultim {
+  width: 60%;
+}
+.paragrafultim button {
+  border: none;
+  background-color: rgb(226, 225, 221);
+  color: rgb(160, 127, 28);
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  font-family: 'Exo', sans-serif;
+  cursor: pointer;
+}
+.paragrafultim p {
+  font-size: 15px;
+  color: white;
+}
+.footer {
+  background-color: rgb(30, 30, 30);
+  padding: 40px;
+}
+span {
+  color: rgb(211, 211, 211);
+}
+.footer p {
+  font-size: 15px;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    padding: 60px 0px;
+    width: 100%;
+    margin: 0;
+  }
+  .Navbar a {
+    padding: 4px;
+  }
+  .Navbar-Link-brand {
+    font-size: 25px;
+    padding-top: 8px;
+  }
+  .Navbar-Items-right {
+    font-size: 15px;
+  }
+  .Navbar-Items-right.Navbar-Link {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .gridboxe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .boxa {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .boxa {
+    width: calc(100% / 3);
+  }
+}

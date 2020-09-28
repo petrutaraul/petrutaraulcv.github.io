@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="../RaulTube/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+<body>
+	<div id="overlay"></div>
+	
+	<header>
+	<div id="mySidenav" class="sidenav">
+  		<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="#"><i class="fa fa-home"></i>Home</a>
+  		<a href="#"><i class="fa fa-bed"></i>Remind to rest</a>
+  		<a href="#"><i class="fa fa-address-book"></i>Subscriptions</a>
+  		<a href="#"><i class="fa fa-archive"></i>Saved</a>
+	</div>
+	<div class="container rand navbar">
+		<div class="left line bare">
+			<div class="icon-button leftfloat">
+				<i class="fa fa-bars bars" onclick="openNav()"></i>
+			</div>
+			<div class="logo leftfloat">
+				<p><i class="fa fa-youtube-play youtube"></i><span class="nume">Raul<span class="tube">Tube</span></span>
+				</p>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+		<div class="right line">
+			<div class="foricons leftfloat">
+				<ul class="inline">
+					<li class="topfix">
+						<i class="fa fa-video-camera"></i>
+					</li>
+					<li class="topfix">
+						<i class="fa fa-bars"></i>
+					</li>
+					<li class="topfix">
+						<i class="fa fa-share-square"></i>
+					</li>
+					<li class="topfix">
+						<i class="fa fa-bell"></i>	
+					</li>
+				
+					<li>
+						<img src="img/pozaprofil.jpg" alt="" class="photoaccount">
+					</li>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+
+	</div>
+
+	</header>
+
+	<main id="main">
+	<div class="container-mare">
+		<div class="leftcontainer">
+			<div class="videoinfo">
+
+				<div class="video">
+					<video muted autoplay loop controls>
+						<source src="video/video.mp4">
+					</video>
+				</div>
+				
+				<div class="titluvideo">
+					<h2>Tastare pe laptop</h2>
+				</div>
+				
+				<div class="viewsandicons">
+					<div class="vizionari">
+						<p><span class="numarvizionari">999.999.999</span> 
+						de vizionari</p>
+					</div>
+				
+					<div class="chestiidreapta">
+						<ul>
+							<li class="like">
+								<button onclick="blue()">
+									<i class="fa fa-thumbs-up bluemargin"></i>
+								</button>
+							</li>
+							<li class="dislike">
+								<button onclick="red()">
+									<i class="fa fa-thumbs-down bluemargin"></i>
+								</button>
+							</li>
+							<li>
+								<button>
+									<i class="fa fa-share"></i>
+									<span>Trimite</span>
+								</button>
+							</li>
+							<li>
+								<button>
+									<i class="fa fa-bookmark"></i>
+									<span>Salveaza</span>
+								</button>
+							</li>
+							<li>
+								<button>
+									<i class="fa fa-ellipsis-h"></i>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+
+
+
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="greyborder" id="border"></div>
+
+					
+						
+						<!-- <div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div> -->
+				<div class="descriere-abonare">
+				<div class="descriere">
+						<div class="uploader-details">
+
+					<div class="uploader-pic">
+						<img src="http://placehold.it/60x60" alt="">
+					</div>
+
+					<div class="uploader-right">
+						<div class="uploader-name">
+							<p>Raul Carlos Petru</p>
+						</div>
+						<div class="uploader-upload-time">
+							<p>Publicat cand vreau eu</p>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+					<div class="buton-abonare">
+							<input type="submit" value="ABONEAZA-TE"><button>
+							</button>
+						</div>
+					
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="description">
+						<div class="text-des">
+							<p>Aboneaza-te daca esti smecher!</p>
+							<p>Nu uita sa lasi un LIKE si SHARE!</p>
+							<p>Mai jos e un text random</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae autem magnam dolore ut eos consequatur culpa, praesentium, inventore unde. Fugit.</p>
+						</div>
+						<div class="video-type">
+							<div class="category">Categorie</div>
+							<div class="category-name">Proiect</div>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<button class="showmore">Show more</button>
+				</div>
+				<div class="abonare">
+				<div class="abonarebutton">
+					<input type="submit" value="ABONEAZA-TE"><button>
+					</button>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="clearfix"></div>
+			</div>
+
+			<div class="greyborder"></div>
+
+		
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+
+
+
+	<aside>
+		<div class="nextvideo videoaside">
+			<div class="urmeazainfo">
+				<div class="urmeaza">
+					<p>Umreaza</p>
+				</div>
+				<div class="redareauto">
+					<p>REDARE AUTOMATA</p>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+
+
+			<div class="videoinfo subnext">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bara-subnext">
+				
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="videoinfo">
+				<div class="detaliivideoaside">
+					<div class="videoinfoleft">
+						<div class="videopoza">
+							<img src="http://placehold.it/150x100" alt="">
+						</div>
+						<div class="clearix"></div>
+					</div>
+					<div class="videoinfodetalii">
+						<div class="videotitleaside">
+							<p>Cum sa faci bani simplu si rapid</p>
+						</div>
+						<div class="channelnameaside">
+							<p>Petruta Raul</p>
+						</div>
+						<div class="viewsaside">
+							<p>1 mil de vizionari</p>
+						</div>
+						<div class="clearix"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</aside>
+
+	<div class="commsection">
+
+		<div class="nrcom-sortcom">
+			<div class="nrcom">
+				<span>x comentarii</span>
+			</div>
+			<div class="sortcom">
+				<button type="button">
+					<i class="fa fa-bars"></i>
+					<span>SORTEAZA DUPA</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="addcomm">
+			<form action="post" name="commadd">
+				<div class="add-comm-picture">
+					<img src="http://placehold.it/50x50" alt="">
+				</div>
+
+				<div class="add-comm-field">
+					<input type="text" placeholder="Adauga un comentariu....">
+					<div class="greyborderr"></div>
+					<input type="submit" value="Comenteaza">
+
+					<div class="clearfix"></div>
+				</div>
+			</form>
+
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="commuri">
+
+			<div class="comentariu">
+				<div class="user-picture">
+					<img src="img/elon.jpg" alt="">
+				</div>
+				<div class="user-name-date">
+					<div class="user-name">
+						Elon Musk
+					</div>
+					<div class="user-date">
+						Acum o zi
+					</div>
+					<div class="user-comm">
+					<p>Bravo, baiete! Te vreau in echipa mea sa imi faci site-ul de la Space X. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi deserunt quisquam soluta id minima at adipisci facilis commodi nesciunt earum, vel nobis, corporis nisi maxime, ipsa magnam tempora. Saepe nisi commodi quisquam consectetur, cum, provident rerum ipsum maiores laborum voluptate.</p>
+				</div>
+				<div class="actions-comm">
+					<ul>
+						<li class="like-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-up"></i>
+							</button>
+						</li>
+						<li class="dislike-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-down"></i>
+							</button>
+						</li>
+						<li class="heart-comm">
+							<img src="http://placehold.it/15x15" alt="">
+							<span><i class="fa fa-heart"></i></span>
+						</li>
+						<li class="respond-comm">
+							<button type="button">
+								<span>RASPUNDE</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="comentariu">
+				<div class="user-picture">
+					<img src="img/elon.jpg" alt="">
+				</div>
+				<div class="user-name-date">
+					<div class="user-name">
+						Elon Musk
+					</div>
+					<div class="user-date">
+						Acum o zi
+					</div>
+					<div class="user-comm">
+					<p>Bravo, baiete! Te vreau in echipa mea sa imi faci site-ul de la Space X. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi deserunt quisquam soluta id minima at adipisci facilis commodi nesciunt earum, vel nobis, corporis nisi maxime, ipsa magnam tempora. Saepe nisi commodi quisquam consectetur, cum, provident rerum ipsum maiores laborum voluptate.</p>
+				</div>
+				<div class="actions-comm">
+					<ul>
+						<li class="like-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-up"></i>
+							</button>
+						</li>
+						<li class="dislike-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-down"></i>
+							</button>
+						</li>
+						<li class="heart-comm">
+							<img src="http://placehold.it/15x15" alt="">
+							<span><i class="fa fa-heart"></i></span>
+						</li>
+						<li class="respond-comm">
+							<button type="button">
+								<span>RASPUNDE</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="comentariu">
+				<div class="user-picture">
+					<img src="img/elon.jpg" alt="">
+				</div>
+				<div class="user-name-date">
+					<div class="user-name">
+						Elon Musk
+					</div>
+					<div class="user-date">
+						Acum o zi
+					</div>
+					<div class="user-comm">
+					<p>Bravo, baiete! Te vreau in echipa mea sa imi faci site-ul de la Space X. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi deserunt quisquam soluta id minima at adipisci facilis commodi nesciunt earum, vel nobis, corporis nisi maxime, ipsa magnam tempora. Saepe nisi commodi quisquam consectetur, cum, provident rerum ipsum maiores laborum voluptate.</p>
+				</div>
+				<div class="actions-comm">
+					<ul>
+						<li class="like-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-up"></i>
+							</button>
+						</li>
+						<li class="dislike-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-down"></i>
+							</button>
+						</li>
+						<li class="heart-comm">
+							<img src="http://placehold.it/15x15" alt="">
+							<span><i class="fa fa-heart"></i></span>
+						</li>
+						<li class="respond-comm">
+							<button type="button">
+								<span>RASPUNDE</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="comentariu">
+				<div class="user-picture">
+					<img src="img/elon.jpg" alt="">
+				</div>
+				<div class="user-name-date">
+					<div class="user-name">
+						Elon Musk
+					</div>
+					<div class="user-date">
+						Acum o zi
+					</div>
+					<div class="user-comm">
+					<p>Bravo, baiete! Te vreau in echipa mea sa imi faci site-ul de la Space X. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi deserunt quisquam soluta id minima at adipisci facilis commodi nesciunt earum, vel nobis, corporis nisi maxime, ipsa magnam tempora. Saepe nisi commodi quisquam consectetur, cum, provident rerum ipsum maiores laborum voluptate.</p>
+				</div>
+				<div class="actions-comm">
+					<ul>
+						<li class="like-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-up"></i>
+							</button>
+						</li>
+						<li class="dislike-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-down"></i>
+							</button>
+						</li>
+						<li class="heart-comm">
+							<img src="http://placehold.it/15x15" alt="">
+							<span><i class="fa fa-heart"></i></span>
+						</li>
+						<li class="respond-comm">
+							<button type="button">
+								<span>RASPUNDE</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="comentariu">
+				<div class="user-picture">
+					<img src="img/elon.jpg" alt="">
+				</div>
+				<div class="user-name-date">
+					<div class="user-name">
+						Elon Musk
+					</div>
+					<div class="user-date">
+						Acum o zi
+					</div>
+					<div class="user-comm">
+					<p>Bravo, baiete! Te vreau in echipa mea sa imi faci site-ul de la Space X. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi deserunt quisquam soluta id minima at adipisci facilis commodi nesciunt earum, vel nobis, corporis nisi maxime, ipsa magnam tempora. Saepe nisi commodi quisquam consectetur, cum, provident rerum ipsum maiores laborum voluptate.</p>
+				</div>
+				<div class="actions-comm">
+					<ul>
+						<li class="like-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-up"></i>
+							</button>
+						</li>
+						<li class="dislike-comm">
+							<button type="button">
+								<i class="fa fa-thumbs-down"></i>
+							</button>
+						</li>
+						<li class="heart-comm">
+							<img src="http://placehold.it/15x15" alt="">
+							<span><i class="fa fa-heart"></i></span>
+						</li>
+						<li class="respond-comm">
+							<button type="button">
+								<span>RASPUNDE</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+
+			
+</main>
+
+
+
+	
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

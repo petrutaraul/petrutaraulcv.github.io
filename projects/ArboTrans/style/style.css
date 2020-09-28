@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css?family=Gayathri:100,400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Gayathri", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar {
+  padding-top: 40px;
+  font-weight: 400;
+}
+
+.nav-bar .img {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.nav-bar .img img {
+  max-width: 18rem;
+}
+
+.nav-bar .nav-meniu {
+  text-align: center;
+}
+
+.nav-bar .nav-meniu ul {
+  list-style-type: none;
+}
+
+.nav-bar .nav-meniu li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.nav-bar .nav-meniu li:hover {
+  color: #f03515;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+  font-weight: 600;
+}
+
+.nav-bar .buton-hidden {
+  display: none;
+  color: black;
+}
+
+.nav-bar .buton-hidden img {
+  float: right;
+  width: 30px;
+}
+
+.div-nav {
+  display: none;
+  overflow: hidden;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.div-nav li {
+  padding: 30px;
+  font-size: 40px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.container .background-scroll {
+  background-image: url("../img/camioane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.container .background-scroll .text {
+  background-color: rgba(0, 0, 0, 0.712);
+  padding-top: 190px;
+  padding-bottom: 190px;
+  color: #ffffff;
+  line-height: 60px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  font-family: "Gayathri", sans-serif;
+}
+
+.container .despre {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.container .despre h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.container .despre p {
+  color: grey;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.container .servicii-top {
+  text-align: center;
+  background-image: url("../img/servicii-top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container .servicii-top h1 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.container .servicii {
+  padding-top: 60px;
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+}
+
+.container .servicii .flex-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .servicii .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.container .servicii .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+}
+
+.container .servicii .modal-content p {
+  font-size: 1.1rem;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.container .servicii .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container .servicii .close:hover,
+.container .servicii .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container .servicii #myBtn {
+  border: none;
+  background-color: inherit;
+  color: blue;
+  cursor: pointer;
+}
+
+.container .servicii #myBtn:hover {
+  font-weight: 600;
+}
+
+.container .flex-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.container .servicii-1 .text-servicii,
+.container .servicii-3 .text-servicii {
+  padding-left: 10px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 50%;
+}
+
+.container .servicii-1 .img-servicii,
+.container .servicii-3 .img-servicii {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 50%;
+}
+
+.container .servicii-2 .text-servicii,
+.container .servicii-4 .text-servicii {
+  padding-right: 10px;
+  width: 50%;
+}
+
+.container .servicii-2 .img-servicii,
+.container .servicii-4 .img-servicii {
+  width: 50%;
+}
+
+.container .text-servicii {
+  text-align: center;
+}
+
+.container .text-servicii h1 {
+  font-size: 1.9rem;
+}
+
+.container .img-servicii {
+  max-width: 500px;
+}
+
+.container .img-servicii img {
+  width: 100%;
+}
+
+.container .reviews-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container .reviews-container .reviews {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .reviews-container .reviews .review {
+  margin-top: 5px;
+}
+
+.container .reviews-container .reviews .review .nume {
+  font-size: 1.5rem;
+}
+
+.container .reviews-container .reviews .review .review {
+  font-size: 1.4rem;
+}
+
+.container .reviews-container h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.container .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dfdfdf;
+}
+
+.container .contact .poza {
+  display: block;
+  width: 100%;
+}
+
+.container .contact .poza .mapouter .gmap_canvas iframe {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+.container .contact .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container .contact .date {
+  text-align: center;
+  width: 100%;
+}
+
+.container .contact .date a:hover {
+  color: blue;
+}
+
+.container .contact .date ul {
+  list-style-type: none;
+}
+
+.container .contact .date ul li {
+  padding: 4px;
+}
+
+.container .contact .poza img {
+  width: 100%;
+}
+
+.container .footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container .footer a:hover {
+  color: red;
+  font-weight: 900;
+}
+
+ul#ul2 li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+ul#ul2 li img {
+  width: 24px;
+  height: 15px;
+}
+
+@media only screen and (max-width: 999px) {
+  #contact {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #despre h1 {
+    font-size: 2rem;
+  }
+  #despre p {
+    font-size: 1rem;
+  }
+  .servicii h1 {
+    font-size: 1.4rem;
+  }
+  .servicii p {
+    font-size: 1rem;
+  }
+  .contact h1 {
+    font-size: 1.4rem;
+  }
+  .contact li {
+    font-size: 0.9rem;
+  }
+  .nav-bar img {
+    width: 12rem;
+  }
+  .container .background-scroll .text {
+    font-size: 1rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .servicii-top h1 {
+    font-size: 2rem !important;
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+  }
+  .servicii-1 .text-servicii,
+  .servicii-3 .text-servicii {
+    -webkit-box-ordinal-group: 2 !important;
+        -ms-flex-order: 1 !important;
+            order: 1 !important;
+    width: 100% !important;
+  }
+  .servicii-1 .img-servicii,
+  .servicii-3 .img-servicii {
+    -webkit-box-ordinal-group: 3 !important;
+        -ms-flex-order: 2 !important;
+            order: 2 !important;
+    width: 100% !important;
+  }
+  .flex-grid {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .servicii-2 .text-servicii,
+  .servicii-4 .text-servicii {
+    width: 100% !important;
+  }
+  .servicii-2 .img-servicii,
+  .servicii-4 .img-servicii {
+    width: 100% !important;
+  }
+  .text-servicii,
+  .img-servicii {
+    padding: 0 !important;
+  }
+  .text-servicii {
+    border: 10px !important;
+  }
+  .img-servicii img {
+    width: 90% !important;
+    border: 5px solid silver !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .img-servicii img {
+    width: 100% !important;
+    border: 5px solid silver !important;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .container .background-scroll .text {
+    font-size: 0.8rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

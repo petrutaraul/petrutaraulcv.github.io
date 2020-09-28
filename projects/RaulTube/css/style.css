@@ -1,0 +1,739 @@
+/*Start reset*/
+
+html {
+	font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1921px) {
+	html {
+		font-size: 1.5vh;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+ul,ol {
+	list-style-type: none;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+input:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img-responsive {
+	max-width: 100%;
+	display: block;
+}
+
+/*end reset*/
+
+body {
+	transition: background-color .5s;
+}
+
+main {
+	margin-top: 60px;
+}
+
+.foricons img {
+	width: 35px;
+	border-radius: 50%;
+}
+
+.icon-button {
+	cursor: pointer;
+}
+
+.container-rand {
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.leftfloat {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.right li {
+	float: left;
+}
+
+
+.inline i {
+	padding-right: 30px;
+	font-size: 1.1rem;
+}
+
+.container {
+	padding: 15px 20px 2px 20px;
+}
+
+.bars {
+	margin-right: 20px;
+	font-size: 1.2rem;
+}
+
+.logo p {
+	font-size: 1.2rem;
+}
+
+.youtube {
+	color: red;
+}
+
+.nume {
+	font-weight: 700;
+}
+
+.foricons img {
+	position: relative;
+	top: -10px;
+}
+
+.logo {
+	position: relative;
+	top: -1px;
+}
+
+
+/*container mare stanga cu video si toate*/
+.video video{
+	width: 100%;
+}
+
+
+.leftcontainer {
+	float: left;
+	width: 70%;
+}
+
+.container-mare {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.videoinfo {
+	margin-bottom: 8px;
+}
+
+.vizionari {
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	width: 30%;
+}
+
+.vizionari, .chestiidreapta {
+	display: inline-block;
+}
+
+.vizionari p {
+	font-size: 1rem;
+	color: grey;
+}
+
+.chestiidreapta {
+	float: right;
+}
+
+.chestiidreapta li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.chestiidreapta i,
+.chestiidreapta span {
+	color: grey;
+	font-size: 1rem;
+}
+
+.chestiidreapta button {
+	border: none;
+	background-color: white;
+}
+
+.titluvideo {
+	padding-top: 10px;
+}
+
+.like i, .dislike i {
+	color: ;
+}
+
+.viewsandicons {
+	margin-bottom: 10px;	
+}
+
+.greyborder {
+	border-bottom: 0.7px solid grey;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+#border {
+	border-bottom: 0.7px solid grey;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*uploader styleish*/
+
+.uploader-pic img {
+	border-radius: 50%;
+}
+
+.descriere-abonare {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.descriere {
+	flex: 1;
+}
+
+.abonare {
+	flex: 1;
+}
+
+.abonare .abonarebutton {
+	float: right;
+}
+
+.abonare .abonarebutton input, .abonare .abonarebutton button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.abonare .abonarebutton input {
+	margin-right: 10px;
+	background-color: red;
+	padding: 10px 18px 10px 18px;
+	color: #ffffff;
+	border-radius: 2px;
+}
+
+.abonare .abonarebutton button i {
+	font-size: 1.2rem;
+	color: grey;
+}
+
+.uploader-details {
+	width: 300px;
+}
+
+.uploader-pic {
+	float: left;
+}
+
+.uploader-right {
+	float: left;
+	position: relative;
+	top: 12px;
+	margin-left: 10px;
+}
+
+.uploader-upload-time {
+	font-size: 0.9rem;
+	color: grey;
+}
+
+.uploader-name {
+	color: black;
+	font-weight: 700;
+}
+
+.video-type {
+	margin-top: 10px;
+}
+
+.video-type .category, .video-type .category-name{
+	float: left;
+	margin-right: 60px;
+}
+
+.category-name {
+	color: blue;
+}
+
+.category {
+	color: grey;
+}
+
+.description {
+	margin-bottom: 10px;
+}
+
+.showmore {
+	color: grey;
+	font-size: 0.8rem;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+/*comm section*/
+
+
+.commsection {
+	float: left;
+	width: 70%;
+}
+
+.sortcom button {
+	border: none;
+	background-color: transparent;
+	font-size: 1rem;
+	color: grey;
+	font-weight: 200;
+}
+
+.sortcom i {
+	font-weight: 100;
+	position: relative;
+	top: 1px;
+}
+
+
+.nrcom-sortcom {
+	
+}
+
+.nrcom-sortcom .nrcom {
+	margin-right: 20px;
+	font-size: 1.1rem;
+}
+
+
+.nrcom-sortcom .sortcom, .nrcom-sortcom .nrcom {
+	display: inline-block;
+}
+
+.addcomm form {
+	display: flex;
+}
+
+.addcomm {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.add-comm-picture {
+	flex: 1;
+	width: 20%;
+}
+
+.add-comm-field {
+	margin-left: 5px;
+	flex: 18;
+	width: 100%;
+	position: relative;
+	top: 5px;
+}
+
+.add-comm-field input[type="text"] {
+	width: 100%;
+	border: none;
+}
+
+.add-comm-field input[type="submit"] {
+	float: right;
+	border: none;
+	padding: 5px 7px 5px 7px;
+}
+
+.greyborderr {
+	border-bottom: 1px solid grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+.add-comm-picture img {
+	display: block;
+	border-radius: 50%;
+	width: 100%;
+}
+
+.comentariu .user-picture img {
+	border-radius: 50%;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+	width: 30px;
+	height: 30px;
+}
+
+.comentariu .user-name {
+	font-weight: 700;
+
+}
+
+.comentariu .user-date, .comentariu .user-name {
+	display: inline-block;
+}
+
+.comentariu .actions-comm li {
+	display: inline-block;
+}
+
+.comentariu .user-date {
+	font-size: 0.8rem;
+	color: grey;
+}
+
+
+.comentariu .heart-comm {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.comentariu .heart-comm span {
+	position: absolute;
+	font-size: 0.7rem;
+	bottom: 0px;
+	left: 7px;
+	color: red;
+}
+
+.actions-comm button {
+	background-color: transparent;
+	border: none;
+}
+
+.actions-comm li.respond-comm {
+	margin-left: 8px;
+}
+
+.actions-comm li.dislike-comm {
+	margin-left: 9px;
+}
+
+.comentariu .heart-comm img {
+	top: 3px;
+	position: relative;
+	border-radius: 50%;
+}
+
+.comentariu {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.actions-comm {
+	margin-top: 2px;
+}
+
+.clickbutonblue {
+	background-color: blue;
+	padding: 3px;
+}
+
+.clickbutonred {
+	background-color: red;
+	padding: 3px;
+}
+
+
+
+/*parte dreapta cu "La ce te mai uiti?"*/
+
+.urmeaza {
+	float: left;
+}
+
+.redareauto {
+	float: right;
+}
+
+.redareauto p {
+	font-size: 0.85rem;
+}
+
+.urmeazainfo {
+	margin-bottom: 10px;
+}
+
+.videoaside {
+	width: 80%;
+	margin: 0 auto;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.videoinfoleft {
+	float: left;
+	width: 40%;
+}
+
+.videoinfodetalii {
+	float: right;
+	width: 55%;
+}
+
+.videopoza img {
+	width: 100%;
+	display: block;
+}
+
+.videotitleaside p {
+	font-size: 1.02rem;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 16px;
+}
+
+.channelnameaside p,
+.viewsaside p {
+	font-size: 0.8rem;
+	color: grey;
+}
+
+.channelnameaside {
+	padding-bottom: 3px;
+}
+
+.videoinfo {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.subnext {
+	margin-bottom: 20px;
+}
+
+.bara-subnext {
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999999;
+}
+
+.buton-abonare {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	display: none;
+}
+
+
+/*.buton-abonare input, .buton-abonare button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.buton-abonare input {
+	background-color: red;
+	padding: 10px 18px 10px 18px;
+	color: #ffffff;
+	border-radius: 2px;
+}
+
+.buton-abonare button i {
+	font-size: 1.2rem;
+	color: grey;
+}*/
+
+.buton-abonare input, .buton-abonare button {
+	border: none;
+	background-color: transparent;
+	font-size: 0.8rem;
+}
+
+.buton-abonare input {
+	color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.butonSmecher{
+	color: red;
+	background-color: grey;
+	border-color: black;
+	font-size: 0.8rem;
+	border: 1px solid;
+	padding: 2px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 40px;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav i {
+	color: black;
+	font-size: 16px;
+	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
+}
+
+.hoveri {
+	padding: 5px;
+	background-color: rgba(198, 56, 56, 0.27);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 1024px) {
+	.leftcontainer {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	.commsection {
+		width: 100%;
+	}
+
+	.videoinfodetalii {
+	}
+
+	.abonare {
+		display: none;
+	}
+
+	.buton-abonare {
+		display: block;
+	}
+
+	.videoaside {
+		width: 100%;
+	}
+	
+	.videopoza img {
+		width: 80%;
+	}
+
+	.videoinfodetalii {
+		width: 60%;
+	}
+}
+
+	@media (max-width: 640px) {
+		.chestiidreapta li{
+			padding: 2px;
+		}
+		
+		.inline i {
+			padding-right: 15px;
+		}
+	}
